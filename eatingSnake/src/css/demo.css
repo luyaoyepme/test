@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    /* list-style: none; */
+}
+body{
+    
+    width: 100%;
+    height: 100%;
+   
+}
+.startPage{
+    width: 100%;
+    z-index:9999;
+    height: 700px;
+    position: absolute;
+    top:0;
+    left:0;
+    /* bottom: 0; */
+}
+
+.startBtn{
+   background-image: url('../img/startgame.jpeg');
+   height:100px;
+   width:250px;
+   background-size: 100% 100%;
+   cursor: pointer;
+   position: absolute;
+   top:0;
+   left:10%;
+   right: 0;
+   bottom:0;
+   margin: auto;
+}
+.wrapper{
+    width: 100%;
+    height:750px; 
+    background-image: url('../img/img.jpg');
+    background-size: 100% 100%;
+    background-position:center;
+    position: relative;
+    overflow: hidden;
+}
+.left-side{
+    right:0;
+    right:24%;
+    position: absolute;
+    height:750px;
+    /* border-left: 1px solid black; */
+    
+}
+.left-side img{
+    display: none;
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.main{
+    position: absolute;
+    left:0;
+    width: 60%;
+    height: 80%;
+    /* border: 1px solid black; */
+}
+
+.header{
+  width: 100%;
+  height:800px;
+  text-align: center;
+}
+.score{
+    line-height: 80px;
+    color:gray;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.content{
+    position: absolute;
+    width: 95%;
+    height:60%;
+    top:20%;
+    left:2.5%;
+    border-radius: 20px;
+    border: 5px solid gray;
+}
+.loser{
+    display: none;
+    position:100%;
+    height:750px;
+    top:0;
+    left:0;
+}
+.con{
+    background-image:url('../img/loser.jpg');
+    background-size: 100% 100%;
+    height:260px;
+    width:260px;
+    position: absolute;
+    margin:auto;
+    left: 0;
+    right:0;
+    bottom:0;
+    top:0;
+    border-radius: 20px;
+}
+.yourscore{
+    display: block;
+    height: 40px;
+    line-height: 40p;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    top:40%;
+    left: 25%;
+    position: absolute;
+}
+.loserscore{
+    display: block;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color:#222;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.close{
+    position: absolute;
+    top:0;
+    right:0;
+    height:40px;
+    width:40px;
+    background-image: url('../img/close.png');
+    background-size:100% 100%;   
+    cursor: pointer;
+}
+.food {
+    background-image: url('../img/Cherry.png');
+    background-size: 100% 100%;
+}
+.head{
+    background-image: url('../img/蛇蛇.png');
+    background-size: 100% 100%;
+}
+.body{
+    background-image: url('../img/足球.png');
+    background-size: 100% 100%;
+    
+}
