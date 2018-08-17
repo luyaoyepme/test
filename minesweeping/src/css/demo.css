@@ -1,0 +1,105 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+.wrapper{
+    width: 600px;
+    height: 500px;  
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -250px;
+    background-image:url('../img/bimg.jpg');
+    background-size: 100% 100%;
+}
+.btn{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left:-200px;
+    background-image:url('../img/start.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.box{
+    /* position: relative; */
+    /* top:-140px; */
+    height:360px;
+    width:360px;
+    margin : 65px auto;
+    border:1px solid black;
+    cursor: pointer;
+     display: none; 
+}
+.flagBox{
+    position: absolute;
+    top:20px;
+    left:50%;
+    width: 280px;
+    height: 50px;
+    color:#333;
+    font-size: 20px;
+    font-weight: bolder;
+     display:none; 
+}
+
+.alertBox{
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left:0;
+      top:0;
+      background-color:rgba(0,0,0,0.2);
+}
+.alertImg{
+    position:absolute;
+    width:500px;
+    border-radius: 20px;
+    height: 300px;
+    /* background-image: url('../img/gover.jpg'); */
+    background-size: 100% 100%;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.closeBtn{
+    position:absolute;
+    right:0;
+    top:0;
+    height:40px;
+     width:40px;
+     background-image: url('../img/close1.jpg');
+     background-size: 100% 100%;
+     cursor: pointer;
+}
+.block{
+    float:left;
+    width:35px;
+    height: 35px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 4px #333 inset;
+    background-image: url('../img/grass.jpg');
+
+}
+
+.show {
+    background-image: url('../img/dilei.jpg');
+    background-size:100% 100%;
+}
+.num{
+    background: #ECD3A1;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+}
+.flag{
+    background-image: url('../img/flag.jpg');
+    background-size: 100% 100%;
+
+}
