@@ -1,0 +1,1 @@
+function abc(){var n=1;return n++}
